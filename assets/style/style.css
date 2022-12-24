@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+hr {
+    margin: 0 40px;
+}
+
+.cont {
+    width: 30%;
+    background-color: #ececec;
+}
+
+h2 {
+    font-size: 38px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.task {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task label {
+    display: block;
+}
+
+.task input {
+    width: 50%;
+    margin: 0 10px;
+    height: 20px;
+    text-align: center;
+}
+
+.task button {
+    background-color: #1a7742e6;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #fff;
+    padding: 5px;
+    margin: 10px;
+}
+
+.task button:hover {
+    cursor: pointer;
+    background-color: #126536;
+}
+
+.results {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.results span {
+    font-weight: bold;
+}
+
+.result {
+    display: inline-block;
+}
+
+.titles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.showingTask div {
+    margin: 20px;
+}
+
+.showingTask h4 {
+    font-size: 20px;
+}
+
+.showingTask ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: -30px;
+    padding-left: 32px;
+}
+
+.showingTask #showTask {
+    font-weight: bolder;
+}
+
+.close {
+    border: 1px solid black;
+    background-color: grey;
+    padding: 0px 4px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+.close:hover {
+    background-color: #f00;
+}
+
+.check {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.check input {
+    margin: 0 10px;
+}
+
+/* .realizada {
+    text-decoration: line-through;
+} */
